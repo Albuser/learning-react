@@ -10,6 +10,9 @@
   text-align: left;
   padding-left: 25px;
   vertical-align: center;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-color: black;
 }
 
 .game {
@@ -34,7 +37,7 @@
 }
 
 .boardSquare {
-  background-color: #ffaebc;
+  background-color: {isActive ? #ffaebc: yellow};
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
